@@ -8,9 +8,7 @@ namespace GitHub_Zajecia
         Student student2;
         Student student3;
         Student student4;
-<<<<<<< HEAD
         Student studentjd;
-=======
 
         Student student10;
 
@@ -30,9 +28,6 @@ namespace GitHub_Zajecia
             students.Add(student10);
             student5 = new Student("Ambroży", "Trytytka", "pierwsza");
             students.Add(studentjd);
-
-
->>>>>>> c4e0f94f96b150b3ebb400dd82cd31c1771888da
         }
 
         private void button1_Click(object sender, EventArgs e)
