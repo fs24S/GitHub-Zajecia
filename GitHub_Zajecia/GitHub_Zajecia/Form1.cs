@@ -7,6 +7,7 @@ namespace GitHub_Zajecia
         Student student2;
         Student student3;
         Student student4;
+        Student student5;
 
         Student student10;
         public Form1()
