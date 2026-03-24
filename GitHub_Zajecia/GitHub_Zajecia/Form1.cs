@@ -13,7 +13,8 @@ namespace GitHub_Zajecia
 =======
 
         Student student10;
->>>>>>> c4e0f94f96b150b3ebb400dd82cd31c1771888da
+
+        Student student5;
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +26,11 @@ namespace GitHub_Zajecia
             students = new List<Student>();
             students.Add(student1);
             student4 = new Student("Jan", "Blachak", "12369");
-<<<<<<< HEAD
-            students.Add(studentjd);
-=======
             student10 = new Student("Filip", "Sudak", "A1");
             students.Add(student10);
+            student5 = new Student("Ambroży", "Trytytka", "pierwsza");
+            students.Add(studentjd);
+
 
 >>>>>>> c4e0f94f96b150b3ebb400dd82cd31c1771888da
         }
