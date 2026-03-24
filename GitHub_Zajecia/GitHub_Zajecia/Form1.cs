@@ -6,6 +6,9 @@ namespace GitHub_Zajecia
         public Form1()
         {
             InitializeComponent();
+
+
+            student1 = new Student("Ambroży", "Trytytka", "pierwsza");
         }
 
         private void button1_Click(object sender, EventArgs e)
