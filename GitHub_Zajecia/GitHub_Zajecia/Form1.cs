@@ -35,6 +35,8 @@ namespace GitHub_Zajecia
             students = new List<Student>();
             students.Add(student1);
             students.Add(student3);
+            students.Add(student8);
+            students.Add(student7);
             student4 = new Student("Alek", "Szopinski", "12369");
             students.Add(student4);
             student10 = new Student("Filip", "Sudak", "A1");
