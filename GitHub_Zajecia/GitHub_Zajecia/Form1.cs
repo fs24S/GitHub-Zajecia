@@ -10,6 +10,8 @@ namespace GitHub_Zajecia
         Student student5;
 
         Student student10;
+
+        Student student5;
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +24,7 @@ namespace GitHub_Zajecia
             student4 = new Student("Jan", "Blachak", "12369");
             student10 = new Student("Filip", "Sudak", "A1");
             students.Add(student10);
-
+            student5 = new Student("Ambroży", "Trytytka", "pierwsza");
         }
 
         private void button1_Click(object sender, EventArgs e)
