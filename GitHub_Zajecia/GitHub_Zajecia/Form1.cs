@@ -5,6 +5,7 @@ namespace GitHub_Zajecia
         List<Student> students;
         Student student1;
         Student student2;
+        Student student3;
         Student student4;
 
         Student student10;
@@ -13,6 +14,7 @@ namespace GitHub_Zajecia
             InitializeComponent();
             student1 = new Student("Adam", "Mickiewicz", "A1");
             student2 = new Student("Jan", "Kowalski", "123");
+            student2 = new Student("Szymon", "Kepniak", "12311111");
             students = new List<Student>();
             students.Add(student1);
             student4 = new Student("Jan", "Blachak", "12369");
