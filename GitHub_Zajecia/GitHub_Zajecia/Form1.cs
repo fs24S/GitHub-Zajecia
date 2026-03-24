@@ -12,6 +12,7 @@ namespace GitHub_Zajecia
             student2 = new Student("Jan", "Kowalski", "123");
             students = new List<Student>();
             students.Add(student1);
+            student4 = new Student("Jan", "Blachak", "12369");
         }
 
         private void button1_Click(object sender, EventArgs e)
