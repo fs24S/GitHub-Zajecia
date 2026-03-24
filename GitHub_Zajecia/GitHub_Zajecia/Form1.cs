@@ -5,6 +5,8 @@ namespace GitHub_Zajecia
         List<Student> students;
         Student student1;
         Student student2;
+        Student student4;
+
         public Form1()
         {
             InitializeComponent();
