@@ -9,7 +9,7 @@ namespace GitHub_Zajecia
         {
             InitializeComponent();
             student1 = new Student("Adam", "Mickiewicz", "A1");
-            student2 = new Student("Jan", "Kowalski", "123");
+            student2 = new Student("Jan", "Kowalski", "123"); 
             student4 = new Student("Pawel", "Sobolewski", "321");
             students = new List<Student>();
             students.Add(student1);
