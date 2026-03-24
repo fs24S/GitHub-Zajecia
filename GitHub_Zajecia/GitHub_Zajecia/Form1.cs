@@ -1,5 +1,6 @@
 namespace GitHub_Zajecia
 {
+    
     public partial class Form1 : Form
     {
         List<Student> students;
@@ -7,6 +8,9 @@ namespace GitHub_Zajecia
         Student student2;
         Student student3;
         Student student4;
+        Student studentjd;
+        Student student7;
+
         Student student5;
         Student student8;
         Student student10;
@@ -16,15 +20,29 @@ namespace GitHub_Zajecia
         {
             InitializeComponent();
             student1 = new Student("Adam", "Mickiewicz", "A1");
+<<<<<<< HEAD
+            student2 = new Student("Jan", "Kowalski", "123"); 
+            student7 = new Student("Pawel", "Sobolewski", "321");
+            students = new List<Student>();
+            students.Add(student1);
+=======
+
             student2 = new Student("Jan", "Kowalski", "123");
             student3 = new Student("Szymon", "Kepniak", "12311111");
+            student5 = new Student("Micha³", "Kurowski", "B2");
+            studentjd = new Student("Jakub", "Dabrowski", "XD");
             student8 = new Student("Micha³", "Kurowski", "B2");
             students = new List<Student>();
             students.Add(student1);
-            student4 = new Student("Jan", "Blachak", "12369");
+            students.Add(student3);
+            student4 = new Student("Alek", "Szopinski", "12369");
+            students.Add(student4);
             student10 = new Student("Filip", "Sudak", "A1");
             students.Add(student10);
             student5 = new Student("AmbroÅ¼y", "Trytytka", "pierwsza");
+            students.Add(student5);
+            students.Add(studentjd);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
