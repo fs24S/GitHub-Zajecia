@@ -23,7 +23,8 @@ namespace GitHub_Zajecia
             studentjd = new Student("Jakub", "Dabrowski", "XD");
             students = new List<Student>();
             students.Add(student1);
-            student4 = new Student("Jan", "Blachak", "12369");
+            student4 = new Student("Alek", "Szopinski", "12369");
+            students.Add(student4);
             student10 = new Student("Filip", "Sudak", "A1");
             students.Add(student10);
             student5 = new Student("Ambroży", "Trytytka", "pierwsza");
