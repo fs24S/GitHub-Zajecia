@@ -2,6 +2,9 @@ namespace GitHub_Zajecia
 {
     public partial class Form1 : Form
     {
+
+        Student student1;
+
         List<Student> students = new List<Student>();
         public Form1()
         {
