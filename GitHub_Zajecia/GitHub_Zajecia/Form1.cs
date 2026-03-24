@@ -1,12 +1,13 @@
 namespace GitHub_Zajecia
 {
+    
     public partial class Form1 : Form
     {
         List<Student> students;
         Student student1;
         Student student2;
         Student student4;
-
+        Student studentjd;
         public Form1()
         {
             InitializeComponent();
@@ -15,6 +16,7 @@ namespace GitHub_Zajecia
             students = new List<Student>();
             students.Add(student1);
             student4 = new Student("Jan", "Blachak", "12369");
+            students.Add(studentjd);
         }
 
         private void button1_Click(object sender, EventArgs e)
