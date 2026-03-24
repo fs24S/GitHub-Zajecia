@@ -28,6 +28,7 @@ namespace GitHub_Zajecia
             students.Add(student10);
             student5 = new Student("Ambroży", "Trytytka", "pierwsza");
             students.Add(studentjd);
+            students.Add(student3);
         }
 
         private void button1_Click(object sender, EventArgs e)
