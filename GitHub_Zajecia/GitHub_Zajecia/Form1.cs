@@ -13,11 +13,11 @@ namespace GitHub_Zajecia
         Student student2;
         Student student3;
         Student student4;
-        Student studentjd;
-        Student student7;
         Student student5;
+        Student student7;
         Student student8;
         Student student10;
+        Student studentjd;
 
         public Form1()
         {
@@ -27,30 +27,25 @@ namespace GitHub_Zajecia
             student1 = new Student("Adam", "Mickiewicz", "A1");
             student2 = new Student("Jan", "Kowalski", "123");
             student7 = new Student("Pawel", "Sobolewski", "321");
-
-            students = new List<Student>();
-            students.Add(student1);
-
-            student2 = new Student("Jan", "Kowalski", "123");
             student3 = new Student("Szymon", "Kepniak", "12311111");
             student5 = new Student("Michal", "Kurowski", "B2");
             studentjd = new Student("Jakub", "Dabrowski", "XD");
             student8 = new Student("Michal", "Kurowski", "B2");
-
-            students = new List<Student>();
-            students.Add(student1);
-            students.Add(student3);
-            students.Add(student8);
-            students.Add(student7);
-
             student4 = new Student("Alek", "Szopinski", "12369");
-            students.Add(student4);
-
             student10 = new Student("Filip", "Sudak", "A1");
-            students.Add(student10);
+
+
+            students.Add(student1);
+            students.Add(student2);
+            students.Add(student3);
+            students.Add(student4);
             students.Add(student5);
+            students.Add(student7);
+            students.Add(student8);
+            students.Add(student10);
             students.Add(studentjd);
 
+            students = new List<Student>();
 
             DB baza = new DB();
             var dane = baza.PobierzDaneZTabeli("dbo.Montaz");
