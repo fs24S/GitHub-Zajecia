@@ -7,7 +7,7 @@ namespace GitHub_Zajecia
 {
     public partial class Form1 : Form
     {
-        // 1. Twoje stare zmienne i lista studentów
+        
         List<Student> students;
         Student student1;
         Student student2;
@@ -19,12 +19,11 @@ namespace GitHub_Zajecia
         Student student8;
         Student student10;
 
-        // G³ówny konstruktor okienka
         public Form1()
         {
             InitializeComponent();
 
-            // 2. Twój stary kod z dodawaniem studentów
+            
             student1 = new Student("Adam", "Mickiewicz", "A1");
             student2 = new Student("Jan", "Kowalski", "123");
             student7 = new Student("Pawel", "Sobolewski", "321");
